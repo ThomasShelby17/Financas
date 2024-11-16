@@ -12,8 +12,8 @@
     display: flex;
     justify-content: end;
     position: fixed;
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--text);
     height: 80px;
 }
 
@@ -27,7 +27,7 @@
     display: inline;
     bottom: 0;
     width: 100%;
-    background-color: green;
+    background-color: #008000;
     position: absolute;
     height: 3px;
 
@@ -37,7 +37,13 @@
 .content {
     position: absolute;
     top: 80px;
+    width: 100%;
     padding-top: 15px;
+    background-color: var(--grey);
+    color: var(--text);
+}
+
+.why_invest_section {
     padding-left: 25px;
 }
 
