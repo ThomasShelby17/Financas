@@ -43,8 +43,8 @@
     color: var(--text);
 }
 
-.why_invest_section {
-    padding-left: 25px;
+.section {
+    padding-left: 30px;
 }
 
 .section_title {
@@ -54,4 +54,8 @@
 
 .content_text, .list_main {
     font-size: 22px;
+}
+
+.margin_top {
+    margin-top: 40px;
 }
