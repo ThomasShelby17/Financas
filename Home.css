@@ -1,4 +1,5 @@
-.list {
+/* ----------- HEADER ----------- */
+.list_nav {
     width: 100%;
     list-style: none;
     display: flex;
@@ -31,3 +32,13 @@
     height: 3px;
 
 }
+/* ----------- MAIN ----------- */
+
+.content {
+    position: absolute;
+    top: 80px;
+}
+
+/* .list_main {
+    list-style-type: decimal;
+} */
