@@ -1,0 +1,21 @@
+.list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
