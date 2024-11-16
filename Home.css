@@ -7,8 +7,10 @@
 }
 
 .header {
+    width: 100%;
     display: flex;
     justify-content: end;
+    position: fixed;
     background-color: black;
     color: white;
     height: 80px;
@@ -18,4 +20,14 @@
     display: flex;
     justify-content: space-between;
     width: 40%;
+}
+
+.line {
+    display: inline;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    height: 3px;
+
 }
