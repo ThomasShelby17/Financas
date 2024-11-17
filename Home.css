@@ -27,7 +27,7 @@
     display: inline;
     bottom: 0;
     width: 100%;
-    background-color: #008000;
+    background-color: var(--green);
     position: absolute;
     height: 3px;
 
@@ -62,5 +62,20 @@
 
 .invest_types {
     margin-left: 45px;
+}
 
+.link {
+    color: var(--green);
+}
+
+li {
+    margin: 7px 0;
+}
+
+.list_style_none {
+    list-style: none;
+}
+
+.investment_type {
+    font-weight: 300;
 }

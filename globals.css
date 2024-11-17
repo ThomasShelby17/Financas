@@ -8,4 +8,9 @@
 
   * {
     font-family: "Poppins", sans-serif;
+    font-weight: 100;
+  }
+  
+  a {
+    font-weight: 300;
   }
